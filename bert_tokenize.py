@@ -49,7 +49,7 @@ for sent in sentences:
     encoded_sent = tokenizer.encode_plus(
                         text=sent,  # the sentence to be encoded
                         add_special_tokens=True,  # Add [CLS] and [SEP]
-                        max_length = 510,  # maximum length of a sentence
+                        max_length = 200,  # maximum length of a sentence
                         pad_to_max_length=True,  # Add [PAD]s
                         return_attention_mask = True,  # Generate the attention mask
                         #return_tensors = 'pt',  # ask the function to return PyTorch tensors
