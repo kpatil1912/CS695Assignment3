@@ -1,0 +1,1 @@
+This is the fine tune BERT implementation for English data to identify hate speech detection (Sub-Task A)
